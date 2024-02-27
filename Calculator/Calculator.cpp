@@ -1,6 +1,8 @@
 #include <iostream>
 
-int MathDo();
+double GetUserOp();
+double GetUserVar();
+double MathDo();
 
 int main()
 {

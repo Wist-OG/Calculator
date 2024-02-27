@@ -1,17 +1,19 @@
 #include <iostream>
+#include <cmath>
 
-int GetUserOp();
-int GetUserVar();
+double GetUserOp();
+double GetUserVar();
 
 
-int MathDo()
+double MathDo()
 {
-	int a;
-	int x;
-	int y;
+	double a;
+	double x;
+	double y;
 	x = GetUserVar();
 	a = GetUserOp();
 	y = GetUserVar();
+	
 	if (a == 1)
 		return x + y;
 	if (a == 2)
@@ -20,5 +22,8 @@ int MathDo()
 		return x * y;
 	if (a == 4)
 		return x / y;
+	if (a == 5)
+		return pow(x, y);
+
 	return -1;
 }

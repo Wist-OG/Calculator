@@ -1,9 +1,9 @@
 #include <iostream>
 
-int GetUserVar()
+double GetUserVar()
 {
 	std::cout << "Enter variable: ";
-	int var;
+	double var;
 	std::cin >> var;
 	return var;
 }
