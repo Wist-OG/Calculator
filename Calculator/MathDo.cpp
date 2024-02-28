@@ -24,6 +24,8 @@ double MathDo()
 		return x / y;
 	if (a == 5)
 		return pow(x, y);
+	if (a == 6)
+		return pow(x, 0.5);
 
 	return -1;
 }
