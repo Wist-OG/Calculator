@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Calculator.cpp" />
-    <ClCompile Include="GetUserOp.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="GetUserOpGeo.cpp" />
+    <ClCompile Include="GetUserOpMath.cpp" />
     <ClCompile Include="GetUserVar.cpp" />
     <ClCompile Include="MathDo.cpp" />
   </ItemGroup>

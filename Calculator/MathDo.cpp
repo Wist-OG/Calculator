@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-double GetUserOp();
+double GetUserOpMath();
 double GetUserVar();
 
 
@@ -11,7 +11,7 @@ double MathDo()
 	double x;
 	double y;
 	x = GetUserVar();
-	a = GetUserOp();
+	a = GetUserOpMath();
 	y = GetUserVar();
 	
 	if (a == 1)
